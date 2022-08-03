@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><div class="container">
+<link rel="stylesheet" href="./my first website_files/style.css">
+  <title>my first website</title>
+  <header class="header">
+    <h1 id="title" class="text-align: center;">freCodeCamp Survey Form</h1>
+   <p id="description" class="description text-center">Welcome to freeCodeCamp where we help beginners and build experts</p>
+<header>
+  <form id="survey-form">
+    <div class="form-group">
+      <label for="name" id="name-label">Name</label>
+
+        <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required="">
+ </div>
+<br>
+   
+     
+  <div class="form-group">
+    <label for="email" id="email-label">Email</label>
+       <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required="">
+  </div>
+<br>
+  <div class="form-group">
+  <label for="age" id="number-label">Age</label>
+       <input type="number" name="age" id="number" min="20" max="90" class="form-control" placeholder="Age">
+    </div>
+<br>
+       <div class="form-group">
+    <p>Please select your gender from the option box</p>
+    <select id="dropdown" name="gender" class="form-control" required="">
+      <option disabled="" selected="" value="">Select your gender</option>
+  <option value="male">Male</option>
+  <option value="female">Female</option>
+  <option value="other">Other</option>
+  </select>
+   </div>
+      <div class="form-gruop">
+     <p>Did you realy enjoy freeCodeCamp courses?</p>
+ <label>
+  <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked="">Definitely</label>
+
+   <label>
+     <input name="user-recommend" value="maybe" type="radio" class="input-radio">Maybe
+     </label>
+
+     <label>
+       <input name="user-recommend" value="not-sure" type="radio" class="input-radio">Not sure</label>
+ </div>
+
+   <div class="form-group">
+     <p>Choose any of your  favorite feature at freeCodeCamp </p>
+     <select id="most-like" name="mostlike" class="form-control" required="">
+       <option disabled="" selected="" value=""></option>
+    <option value="react">React</option>
+    <option value="life lesson">Life lesson</option>  
+    <option value="productivity">Productivity</option>
+    <option value="technology">Technology</option>
+    </select>
+    </div>
+
+     <div class="form-group">
+<p>Select your best project spec</p>
+   <label><input name="prefer" value="machine learning" type="checkbox" class="input-checkbox">Machine Leaning</label>
+
+    <label><input name="prefer" value="relational database" type="checkbox" class="input-checkbox">Relational Database</label>
+
+    <label><input name="prefer" value="python" type="checkbox" class="input-checkbox">Python</label>
+
+    <label><input name="prefer" value="quality assurance" type="checkbox" class="input-checkbox">Quality Assurance</label>
+     </div>
+    <div class="form-group">
+  <p>Do you have any comments or suggestions?</p>
+  <textarea id="comment" class="input-txtarea" name="comment" value="Please enter your comment" style="width: 1722px; height: 119px;"></textarea>
+   </div>
+
+   <div class="form-gruop">
+   <button type="submit" id="submit" class="submit-button">Submit</button>
+      </div>
+    </form>
+  </header></header></div>
+ 
+
+</body></html>
